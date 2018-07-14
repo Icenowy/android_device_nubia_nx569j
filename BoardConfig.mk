@@ -120,7 +120,11 @@ BOARD_HAVE_NUBIA_GOODIX_FP_V1 := true
 
 # CMHW
 BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
+BOARD_HARDWARE_CLASS += \
+	hardware/cyanogen/cmhw \
+	$(DEVICE_PATH)/cmhw
+
+TARGET_TAP_TO_WAKE_NODE := "/sys/class/input/input1/wake_gesture"
 
 # CNE
 BOARD_USES_QCNE := true
