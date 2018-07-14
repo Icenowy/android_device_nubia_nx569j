@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="Icenowy/android_device_nubia_nx569j" path="device/nubia/nx569j" remote="github" />
+  <project name="Asderdd/android_kernel_nubia_nx569j" path="kernel/nubia/nx569j" remote="github" />
+  <project name="Asderdd/android_vendor_nubia_nx569j" path="vendor/nubia/nx569j" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" />
+</manifest>
