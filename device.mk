@@ -270,7 +270,8 @@ PRODUCT_PACKAGES += \
 
 # libshims
 PRODUCT_PACKAGES += \
-    libshim_camera
+    libshim_camera \
+    libshims_cameraservice
 
 PRODUCT_PACKAGES+=\
     libshims_ims
